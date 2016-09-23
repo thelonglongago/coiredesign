@@ -1,0 +1,44 @@
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+body {
+    
+}
+
+.intro {
+    display:table;
+    height:100%;
+    width:100%;
+    margin:auto;
+    background:url('../img/main-image.jpg');
+    background-size:cover;
+}
+
+.intro .inner {
+    display:table-cell;
+    float:left;
+    width:100%;
+    max-width:none;
+}
+
+.content {
+    
+}
+
+
+
+
+
+
+
+
+
+h1 {
+    font-size: 80px;
+    text-align:right;
+    margin-right:5%;
+    color: white;
+}
