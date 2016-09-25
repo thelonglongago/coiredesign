@@ -1,44 +1,122 @@
-html, body {
-    margin:0;
-    padding:0;
-    height:100%;
-}
-
-body {
+/** Global Styling **/
     
-}
-
-.intro {
-    display:table;
-    height:100%;
-    width:100%;
-    margin:auto;
-    background:url('../img/main-image.jpg');
-    background-size:cover;
-}
-
-.intro .inner {
-    display:table-cell;
-    float:left;
-    width:100%;
-    max-width:none;
-}
-
-.content {
+    html, body {
+        margin:0;
+        padding:0;
+        height:100%;
+    }
     
-}
+    body {
+        
+    }
+    
+    ul {
+        list-style:none;
+    }
+    
+    
+/** Class/ID Specific Styling **/
+    
+    .intro {
+        display:table;
+        height:100%;
+        width:100%;
+        margin:auto;
+        background:url('../img/main-image.jpg');
+        background-size:cover;
+    }
+    
+    .intro .inner {
+        display:table-cell;
+        float:left;
+        width:100%;
+        max-width:none;
+    }
+    
+    .content {
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    h1 {
+        font-size: 80px;
+        text-align:right;
+        margin-right:5%;
+        color: white;
+    }
+    
+/* Menu page styling */
+    
+    
+    .menu {
+        background-color:lightblue;
+        text-align:center;
+        font-family: 'PT Sans', sans-serif;
+        margin:0;
+        padding:0;
+        width:100%;
+    }
+    
+    .menuHead {
+        
+    }
+    
+    
+    .menuBody {
+        display:inline-block;
+        width:100%;
+        margin:0;
+        padding:0;
+        
+        
+        
+    }
+     
+    .menuBodyMainColumn {
+        float:left;
+        width:40%;
+        background-color:lightgreen;
+        margin:0;
+    }
+    
+    .menuBodyLeftColumn {
+        float:left;
+        width:30%;
+        background-color:pink;
+        margin:0;
+    }
+    
+    .menuBodyRightColumn {
+        float:left;
+        width:30%;
+        background-color:pink;
+        margin:0;
+    }
+    
+    
+/** Contact **/
+    
 
 
-
-
-
-
-
-
-
-h1 {
-    font-size: 80px;
-    text-align:right;
-    margin-right:5%;
-    color: white;
-}
+/** Footer **/
+    
+    .location {
+        width:30%;
+        float:right;
+        background-color:yellow;
+    }
+    
+    .socialMedia {
+        width:30%;
+        float:left;
+        background-color:yellow;
+        
+        
+    }
