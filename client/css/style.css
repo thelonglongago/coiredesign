@@ -4,11 +4,13 @@
         margin:0;
         padding:0;
         height:100%;
+        background-color:;
     }
     
     body {
         
     }
+    
     
     ul {
         list-style:none;
@@ -24,11 +26,11 @@
         margin:auto;
         background:url('../img/main-image.jpg');
         background-size:cover;
+        overflow:hidden;
     }
     
     .intro .inner {
         display:table-cell;
-        float:left;
         width:100%;
         max-width:none;
     }
@@ -37,40 +39,71 @@
         
     }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    h1 {
+    .content h1 {
         font-size: 80px;
         text-align:right;
         margin-right:5%;
-        color: white;
+        color:white;
+        
+    }
+    
+    
+
+    .container {
+        margin:0;
+        padding:0;
+        background: red; /* For browsers that do not support gradients */
+        background: -webkit-gradient(linear, 0 0, 20% 0, from(rgba(255,0,0,0)), to(rgba(255,0,0,0.4)));
+        background: -webkit-linear-gradient(top, rgba(255,244,205,0), rgba(208,149,79,0.4)); /*Chrome */
+        background: -moz-linear-gradient(left, rgba(255,0,0,0), rgba(255,0,0,1)); /* Firefox */
+        background: -o-linear-gradient(left, rgba(255,0,0,0), rgba(255,0,0,1)); /* Opera (who the fuck uses this) */
+        background: linear-gradient(left, rgba(255,0,0,0), rgba(255,0,0,1)); /*Safari 5.1-6*/ /*Opera 11.1-12*/ /*Fx 3.6-15*/ /*Standard*/
+                }
+    
+
+    
+    
+/** about **/
+    
+    .bio {
+        margin:0;
+    }
+    
+    .headshot img {
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:5%;
+        margin-bottom:2%;
+    }
+    
+    h2 {
+        margin:0;
     }
     
 /* Menu page styling */
     
     
     .menu {
-        background-color:lightblue;
         text-align:center;
         font-family: 'PT Sans', sans-serif;
         margin:0;
         padding:0;
         width:100%;
-    }
-    
-    .menuHead {
+        background-color:blue;
         
     }
     
+    .menuHead {
+        margin:0;
+        clear:none;
+        
+    }
+    
+    p1 { background-color:yellow; }
     
     .menuBody {
-        display:inline-block;
+        display:inline-block; 
         width:100%;
         margin:0;
         padding:0;
@@ -82,21 +115,21 @@
     .menuBodyMainColumn {
         float:left;
         width:40%;
-        background-color:lightgreen;
+        background-color:rgb(66,149,105);
         margin:0;
     }
     
     .menuBodyLeftColumn {
         float:left;
         width:30%;
-        background-color:pink;
+        background-color:rgb(135,178,124);
         margin:0;
     }
     
     .menuBodyRightColumn {
         float:left;
         width:30%;
-        background-color:pink;
+        background-color:rgb(135,178,124);
         margin:0;
     }
     
@@ -106,6 +139,10 @@
 
 
 /** Footer **/
+
+    footer {
+        margin:0;
+    }
     
     .location {
         width:30%;
